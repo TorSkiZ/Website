@@ -1,34 +1,39 @@
-# Overview
-Welcome to my website repository! This repository contains the source code and assets for my personal website. The website showcases information about me, my portfolio, blog and contact information.
+# Website
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+This template should help get you started developing with Vue 3 in Vite.
 
-## Introduction
-This website was designed to give me my place on the internet.
+## Recommended IDE Setup
 
-## Features
-- About me: Information about who I am.
-- Portfolio: My experience, skills, interests and goals.
-- Blog: Posts that I will share from time to time.
-- RSS: Option to subscribe to my website updates.
-- Contact: Links to get in touch with me.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Technologies Used
-- Jekyll: A framework for creating static websites.
-- no style, please!: A (nearly) no-CSS, fast, minimalist Jekyll theme.
-- GitHub Pages: A free static website hosting service.
+## Type Support for `.vue` Imports in TS
 
-## Contributing
-Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request. Please ensure your contributions align with the project's goals and coding standards.
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+## Customize configuration
 
-## Contact
-If you have any feedback, please reach out to me at wiktor.wasinski@wiciu.pl
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
