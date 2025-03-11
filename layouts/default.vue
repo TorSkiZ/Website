@@ -1,9 +1,3 @@
-<script setup lang="ts">
-  import AnimatedBg from '~/components/AnimatedBg.vue'
-  import FootBar from '~/components/FootBar.vue'
-  import NavBar from '~/components/NavBar.vue'
-</script>
-
 <template>
   <div class="min-h-screen flex flex-col space-y-8">
     <AnimatedBg />

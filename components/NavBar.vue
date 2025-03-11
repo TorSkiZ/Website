@@ -2,6 +2,7 @@
   <div class="bg-third p-2 mx-8 rounded-2xl shadow-md">
     <nav class="flex gap-2">
       <NavButton to="/" label="Home" />
+      <NavButton to="/about" label="About" />
     </nav>
   </div>
 </template>
