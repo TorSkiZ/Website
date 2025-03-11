@@ -1,13 +1,12 @@
 <script setup lang="ts">
-  defineOgImageComponent('Frame', {
-    title: 'Wiktor Wasiński',
-    description: 'A passionate IT specialist and web developer',
+  defineOgImage({
+    url: '/og-image.png',
   })
 </script>
 
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtLayout />
   </div>
 </template>

@@ -9,7 +9,8 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
-      title: 'Wiktor Wasiński',
+      titleTemplate: '%s | Wiktor Wasiński',
+      htmlAttrs: { lang: 'en' },
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' },
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
@@ -23,4 +24,11 @@ export default defineNuxtConfig({
     preset: 'github-pages',
   },
   modules: ['@nuxt/eslint', '@nuxtjs/seo', '@nuxt/ui', '@nuxtjs/google-fonts', '@nuxt/image'],
+  css: ['~/assets/scss/global.scss'],
+  googleFonts: {
+    families: {
+      'Funnel+Sans': true,
+    },
+    display: 'swap',
+  },
 })
