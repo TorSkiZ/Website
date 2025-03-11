@@ -4,10 +4,6 @@
       type: String,
       required: true,
     },
-    label: {
-      type: String,
-      required: true,
-    },
   })
 </script>
 
@@ -17,6 +13,6 @@
     target="_blank"
     class="hover:text-second transition-colors duration-200 underline"
   >
-    {{ props.label }}
+    <slot />
   </a>
 </template>
