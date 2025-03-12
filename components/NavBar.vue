@@ -4,6 +4,7 @@
       <NavButton to="/" label="Home" />
       <NavButton to="/about" label="About" />
       <NavButton to="/portfolio" label="Portfolio" />
+      <NavButton to="/contact" label="Contact" />
     </nav>
   </div>
 </template>
