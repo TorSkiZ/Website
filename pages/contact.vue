@@ -1,5 +1,13 @@
 <script setup lang="ts">
-  import { ref } from 'vue'
+  useHead({
+    title: 'Contact',
+    meta: [
+      {
+        name: 'description',
+        content: 'Contact with me.',
+      },
+    ],
+  })
 
   interface IconKeys {
     email: number
