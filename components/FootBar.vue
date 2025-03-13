@@ -3,13 +3,13 @@
 </script>
 
 <template>
-  <footer class="bg-third p-1 text-center">
-    <p class="text-first">
+  <footer class="bg-third dark:bg-third-dark p-1 text-center">
+    <p class="text-first dark:text-first-dark">
       © {{ currentYear }} wiciu.pl. This project is licensed under the
       <a
         href="https://raw.githubusercontent.com/TorSkiZ/Website/refs/heads/main/LICENSE"
         target="_blank"
-        class="hover:text-second transition-colors duration-200 underline"
+        class="hover:text-second dark:hover:text-fourth-dark transition-colors duration-200 underline"
       >
         MIT License
       </a>
