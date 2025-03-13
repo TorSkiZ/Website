@@ -1,7 +1,8 @@
 <template>
   <div class="flex items-center">
     <button
-      class="flex"
+      class="flex transition-colors duration-1000"
+      :class="$colorMode.value === 'dark' ? 'text-[#94908D]' : 'text-[#F09200]'"
       @click="$colorMode.preference = $colorMode.value === 'dark' ? 'light' : 'dark'"
     >
       <IconifyIcon

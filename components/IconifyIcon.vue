@@ -10,9 +10,13 @@
       type: [Number, String],
       default: 24,
     },
+    color: {
+      type: String,
+      default: null,
+    },
   })
 </script>
 
 <template>
-  <Icon :icon="props.icon" :width="props.size" :height="props.size" />
+  <Icon :icon="props.icon" :width="props.size" :height="props.size" :color="props.color" />
 </template>
