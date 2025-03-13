@@ -11,7 +11,7 @@
   <a
     :href="props.href"
     target="_blank"
-    class="hover:text-second transition-colors duration-200 underline"
+    class="hover:text-second dark:hover:text-fourth-dark transition-colors duration-200 underline text-white"
   >
     <slot />
   </a>

@@ -80,9 +80,12 @@
     if (!ctx) return
     const { width, height } = setCanvasSize()
     const styles = getComputedStyle(document.documentElement)
+    const isDarkMode = document.documentElement.classList.contains('dark')
+    const firstColorVariable = isDarkMode ? '--tw-second-dark' : '--tw-second'
+    const secondColorVariable = isDarkMode ? '--tw-fourth-dark' : '--tw-fourth'
     const gradient = ctx.createLinearGradient(0, 0, width, height)
-    gradient.addColorStop(0, styles.getPropertyValue('--tw-second').trim())
-    gradient.addColorStop(1, styles.getPropertyValue('--tw-fourth').trim())
+    gradient.addColorStop(0, styles.getPropertyValue(firstColorVariable).trim())
+    gradient.addColorStop(1, styles.getPropertyValue(secondColorVariable).trim())
     ctx.fillStyle = gradient
     ctx.fillRect(0, 0, width, height)
     updateParticles()
