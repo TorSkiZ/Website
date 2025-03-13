@@ -16,12 +16,14 @@
     "@nuxt/ui": "^2.21.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/seo": "^2.2.0",
+    "@unhead/ssr": "^1.11.20",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.2.5",
+    "@iconify/vue": "^4.3.0",
     "@nuxt/eslint": "^1.1.0",
     "@nuxt/eslint-config": "^1.1.0",
     "eslint": "^9.21.0",
