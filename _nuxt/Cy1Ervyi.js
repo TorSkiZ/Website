@@ -1,0 +1,1 @@
+import{e as n,f as t,o as r,g as c,I as i}from"./BU2aC8oO.js";const p=n({__name:"IconifyIcon",props:{icon:{type:String,required:!0},size:{type:[Number,String],default:24},color:{type:String,default:null}},setup(o){const e=o;return(s,a)=>(r(),t(c(i),{icon:e.icon,width:e.size,height:e.size,color:e.color},null,8,["icon","width","height","color"]))}});export{p as _};
