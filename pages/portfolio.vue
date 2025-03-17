@@ -4,7 +4,8 @@
     meta: [
       {
         name: 'description',
-        content: 'My projects and experience.',
+        content:
+          'Explore my portfolio showcasing a range of projects, technical expertise, and professional experience in IT, web development, and beyond.',
       },
     ],
   })
@@ -12,56 +13,60 @@
 
 <template>
   <BodySection>
-    <BodyHeader>Experience</BodyHeader>
+    <BodyHeader>Professional Experience</BodyHeader>
     <BodyParagraph>
-      During my time at technical school, I created and managed the official
+      During my technical school years, I designed and managed the official
       <HyperLink href="https://zstpleszew.edupage.org/">website</HyperLink>
-      for the institution. Additionally, I am currently responsible for the
+      for the institution. Currently, I oversee the maintenance and updates of the
       <HyperLink href="https://euro-dach.com/">website</HyperLink>
-      of Euro-Dach Smętek, where I oversee its maintenance and updates. One of my notable projects
-      includes developing a
-      <HyperLink href="https://github.com/TorSkiZ/Calculator">calculator</HyperLink>
-      in Python that can plot linear functions. Furthermore, I have built this
+      for Euro-Dach Smętek. One of my notable projects includes developing a
+      <HyperLink href="https://github.com/TorSkiZ/Calculator">Python calculator</HyperLink>
+      capable of plotting linear functions. Additionally, I built this
       <HyperLink href="https://github.com/TorSkiZ/Website">website</HyperLink>
-      using Nuxt framework.
+      using the Nuxt framework.
     </BodyParagraph>
-    <BodyHeader>Skills</BodyHeader>
+    <BodyHeader>Technical Skills</BodyHeader>
     <BodyList>
       <BodyParagraph>
-        Web Development: Proficient in HTML, CSS and JavaScript for front-end development.
+        <strong>Web Development:&nbsp;</strong>
+        Proficient in HTML, CSS, and JavaScript for front-end development.
       </BodyParagraph>
       <BodyParagraph>
-        Programming: Skilled in Python for scripting and application development.
+        <strong>Programming:&nbsp;</strong>
+        Skilled in Python for scripting and application development.
       </BodyParagraph>
       <BodyParagraph>
-        Network Administration: Capable of setting up and managing local networks.
+        <strong>Network Administration:&nbsp;</strong>
+        Experienced in setting up and managing local networks.
       </BodyParagraph>
       <BodyParagraph>
-        Computer Hardware: Experienced in building and repairing computers.
+        <strong>Computer Hardware:&nbsp;</strong>
+        Adept at building and repairing computer systems.
       </BodyParagraph>
       <BodyParagraph>
-        Server Administration: Knowledgeable in managing GNU/Linux servers.
+        <strong>Server Administration:&nbsp;</strong>
+        Competent in managing GNU/Linux servers.
       </BodyParagraph>
     </BodyList>
     <BodyHeader>Interests</BodyHeader>
     <BodyParagraph>
-      I have a deep interest in all aspects of IT, particularly in network systems, GNU/Linux
-      servers, and programming. At home, I run my own server where I experiment with various
-      technologies and enhance my skills.
+      I have a deep passion for IT, with a particular focus on network systems, GNU/Linux server
+      management, and programming. At home, I operate my own server where I experiment with new
+      technologies and continuously enhance my skills.
     </BodyParagraph>
     <BodyHeader>Certifications</BodyHeader>
     <BodyList>
-      <BodyParagraph>Professional Diploma - IT Technician.</BodyParagraph>
-      <BodyParagraph>INF.02 and INF.03 qualifications in the IT profession.</BodyParagraph>
+      <BodyParagraph>Professional Diploma in IT Technology.</BodyParagraph>
+      <BodyParagraph>INF.02 and INF.03 IT Professional Qualifications.</BodyParagraph>
       <BodyParagraph>
-        Certificate of participation in the ‘Czas zawodowców BIS - zawodowa Wielkopolska’ project.
+        Certificate of Participation in the ‘Czas zawodowców BIS – zawodowa Wielkopolska’ project.
       </BodyParagraph>
     </BodyList>
-    <BodyHeader>Goals</BodyHeader>
+    <BodyHeader>Career Goals</BodyHeader>
     <BodyParagraph>
-      My professional goal is to connect people through the vast potential of the internet. I am
-      committed to leveraging my skills and knowledge to contribute to the ever-evolving field of
-      IT.
+      My professional goal is to harness the vast potential of the internet to connect people and
+      foster innovation. I am committed to continuously expanding my skills and making meaningful
+      contributions to the dynamic field of information technology.
     </BodyParagraph>
   </BodySection>
 </template>
