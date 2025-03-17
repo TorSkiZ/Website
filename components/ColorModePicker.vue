@@ -1,6 +1,6 @@
 <template>
   <ClientOnly>
-    <div class="flex items-center">
+    <div class="flex items-center justify-center">
       <button
         :class="[
           $colorMode.value === 'dark' ? 'text-[#94908D]' : 'text-[#F09200]',
