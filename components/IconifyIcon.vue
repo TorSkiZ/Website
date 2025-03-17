@@ -8,7 +8,7 @@
     },
     size: {
       type: [Number, String],
-      default: 24,
+      default: 32,
     },
     color: {
       type: String,
