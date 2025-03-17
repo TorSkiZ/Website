@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{c as o,o as r,r as s}from"./pvn8HdtV.js";const n={},c={class:"leading-relaxed text-justify text-white"};function _(e,a){return r(),o("p",c,[s(e.$slots,"default")])}const i=t(n,[["render",_]]);export{i as _};
