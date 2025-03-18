@@ -18,6 +18,14 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
       ],
+      script: [
+        {
+          src: 'https://umami.wiciu.pl/script.js',
+          async: true,
+          defer: true,
+          'data-website-id': '22712d5e-5c69-45f4-a633-88b3a1c195cf',
+        },
+      ],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },
