@@ -6,6 +6,7 @@
           $colorMode.value === 'dark' ? 'text-[#94908D]' : 'text-[#F09200]',
           'flex transition-colors duration-1000',
         ]"
+        :alt="$colorMode.value === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
         @click="$colorMode.preference = $colorMode.value === 'dark' ? 'light' : 'dark'"
       >
         <IconifyIcon
