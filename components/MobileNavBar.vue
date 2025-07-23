@@ -12,7 +12,7 @@
   <div class="container mx-auto px-8">
     <div class="bg-third dark:bg-second-dark p-2 rounded-2xl shadow-md">
       <div class="flex items-center justify-center">
-        <button @click="toggleMenu">
+        <button :alt="isMenuOpen ? 'Close menu' : 'Open menu'" @click="toggleMenu">
           <IconifyIcon
             :key="iconKey"
             :icon="
