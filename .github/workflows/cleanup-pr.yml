@@ -5,6 +5,10 @@ on:
     types:
       - closed
 
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -30,5 +34,6 @@ jobs:
           git config user.email github-actions@github.com
           git rm -r --ignore-unmatch pr-${{ github.event.pull_request.number }}
           if git commit -m "Remove pr-${{ github.event.pull_request.number }}"; then
+            git pull --rebase
             git push
           fi
