@@ -1,1 +1,0 @@
-.page-enter-active,.page-leave-active{transition:transform .2s ease-out,opacity .2s ease-out,filter .2s ease-out}.page-enter-from{filter:blur(2px);opacity:0;transform:scale(.98)}.page-leave-to{filter:blur(2px);opacity:0;transform:scale(1.02)}
