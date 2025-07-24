@@ -38,3 +38,5 @@ jobs:
           branch: gh-pages
           folder: .output/public
           clean: true
+          clean-exclude: |
+            pr-*
