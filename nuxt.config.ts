@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     name: 'Wiktor Wasiński',
   },
   app: {
-    baseURL: '/',
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     head: {
       titleTemplate: '%s | Wiktor Wasiński',
       htmlAttrs: { lang: 'en' },
