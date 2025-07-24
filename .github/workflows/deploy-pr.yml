@@ -16,6 +16,8 @@ jobs:
       url: https://wiciu.pl/pr-${{ github.event.pull_request.number }}/
     env:
       NODE_ENV: production
+      NUXT_APP_BASE_URL: /pr-${{ github.event.pull_request.number }}/
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
