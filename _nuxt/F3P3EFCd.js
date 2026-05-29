@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{E as o,k as s,N as n}from"./BjqCX8hC.js";const r={},a={class:"leading-relaxed text-justify text-white"};function _(e,c){return o(),s("p",a,[n(e.$slots,"default")])}const d=Object.assign(t(r,[["render",_]]),{__name:"BodyParagraph"});export{d as _};
