@@ -15,7 +15,7 @@
   <BodySection>
     <BodyHeader>About Me</BodyHeader>
     <BodyParagraph>
-      My name is Wiktor Wasiński, and I am 20 years old. I live in a small village with a population
+      My name is Wiktor Wasiński, and I am 22 years old. I live in a small village with a population
       of about 130 residents. I have a deep passion for computer science, technology, and
       electronics. I currently work as a Frontend Developer at
       <HyperLink href="https://mirit.pl/">Mirit Software House</HyperLink>
